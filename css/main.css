@@ -1,0 +1,230 @@
+/*tmp settings*/
+/*.wrapper {
+    border: 2px dashed pink;
+}
+*/
+/*footer {
+    border: 2px dashed grey;
+}*/
+
+/*.wrapper-main {
+    height: 300px;
+}*/
+
+/*//end TMP settings*/
+
+/*Typography adjustments*/
+h1,
+h2,
+h3 {
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+    .fb-ad-text {
+        font-size: 1.2rem;
+    }
+
+@media (min-width: 768px) {
+    .fb-ad-text {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .fb-ad-text {
+        font-size: 2rem;
+    }
+}
+
+
+
+/*Color variables adjustment*/
+
+:root {
+    --green: #AACF15;
+    --orange: #FF9900;
+}
+
+/*Navigation adjustments*/
+
+.nav-pills .nav-link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0;
+}
+
+button.navbar-toggler {
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+ul li a:hover,
+ul li a:active,
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link,
+.dropdown-menu a:hover {
+    background-color: #FF9900;
+    /*IE fallback*/
+    background-color: var(--orange);
+}
+
+a.home-icon:hover {
+    color: #FF9900 !important;
+    /*IE fallback*/
+    color: var(--orange) !important;
+}
+
+/*Have to use !important because of bootstraps hardcoded values*/
+.active {
+    background-color: #AACF15 !important;
+    /*IE fallback*/
+    background-color: var(--green) !important;
+}
+
+a.home-active {
+    color: #AACF15;
+    /*IE fallback*/
+    color: var(--green); 
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 10px;
+    }
+
+    /*Correction for rounded corners at sides, can't use overflow because of dropdown menu*/
+    a.nav-link.left-side-menu {
+        border-radius: 10px 0 0 10px;
+    }
+
+    a.nav-link.right-side-menu {
+        border-radius: 0 10px 10px 0;
+    }
+}
+
+/*Smaller screen phone and email text adjustments*/
+@media (max-width: 350px) {
+    .main-phone {
+        font-size: 20px;
+    }
+
+    .main-mail {
+        font-size: 11px;
+    }
+}
+
+/*End Navigation adjustments*/
+
+/*Background*/
+
+body {
+    background: url("../img/shk-bg.png") repeat fixed;
+    /*IE fallback*/
+    background: url("../img/shk-bg.svg") repeat fixed;
+    background-size: 750px 560px;
+}
+
+/*Site banner*/
+
+.hours {
+    line-height: 1.2;
+}
+
+.top-bar {
+    border: 2px dashed;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+}
+
+.phone-mail-top,
+.phone-mail-top a {
+    color: #FF9900;
+    /*IE fallback*/
+    color: var(--orange);
+}
+
+@media (min-width: 768px) {
+
+    .shk-logo {
+        position: absolute;
+        left: -25px;
+        bottom: -5px;
+        z-index: -100;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .top-align {
+        text-align: right !important;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .site-logo {
+        width: 400px;
+    }
+}
+
+/*Main content*/
+
+@media (min-width: 768px) {
+
+    .wrapper-main {
+        border: 2px dashed #FF9900;
+        /*IE fallback*/
+        border: 2px dashed var(--orange);
+        margin: .75rem;
+        border-radius: 0 0 10px 10px;
+        padding-top: 10px;
+    }
+
+}
+
+/*Footer*/
+.footer-name {
+    color: #FF9900;
+    color: var(--orange);
+}
+
+@media (min-width: 768px) {
+
+    .footer-wrapper, .fb-ad {
+        border-radius: 10px;
+    }
+
+}
+
+nav.nav-footer a:hover,
+nav.nav-footer a:active {
+    background-color: transparent;
+}
+
+/*Forms*/
+
+.form-container {
+    max-width: 500px;
+}
+
+/*Toolpit BG adjustment*/
+.tooltip-inner {
+  background-color: #00acd6;
+  color: #fff;
+}
+
+.tooltip.top .tooltip-arrow {
+  border-top-color: #00acd6;
+}
+
+.tooltip.right .tooltip-arrow {
+  border-right-color: #00acd6;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #00acd6;
+}
+
+.tooltip.left .tooltip-arrow {
+  border-left-color: #00acd6;
+}
