@@ -32,16 +32,57 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body class="text-secondary">
     <div class="wrapper container p-0">
         <div id="header">
         </div><!-- End header-id div -->
 
-        <div class="wrapper-main mt-0 border-top-0 bg-white">
-            <main><!-- MAIN CONTENT -->
-this is main home page
-            </main><!-- MAIN CONTENT END -->
-        </div><!-- End wrapper-main -->
+
+        <main>
+            <!-- MAIN CONTENT -->
+            <div class="wrapper-main mt-0 border-top-0 bg-white">
+                <div class="container">
+                    <h1>Välkommen till Skogås Hund & Katt!
+                    </h1>
+                    <p>Hos oss hittar du ett brett sortiment av djurmat och tillbehör till hund, katt, smådjur och
+                        fåglar.</p>
+                </div><!-- End of container -->
+            </div><!-- End wrapper-main -->
+
+            <div class="banners row container p-0 m-0">
+
+                <picture class="d-block col-md-3 col-6 p-1">
+                    <img class="img-fluid four-banner" sizes="(max-width: 300px) 100vw, 300px"
+                        srcset="img/banners/accessories_banner@2x.png 600w, img/banners/accessories_banner.png 300w"
+                        src="img/banners/accessories_banner.png" alt="Skogås Hund & Katt banner about accessories offers">
+                </picture>
+                <picture class="d-block col-md-3 col-6 p-1">
+                    <img class="img-fluid four-banner" sizes="(max-width: 300px) 100vw, 300px"
+                        srcset="img/banners/care_banner@2x.png 600w, img/banners/care_banner.png 300w"
+                        src="img/banners/care_banner.png" alt="Skogås Hund & Katt banner about pet care offers">
+                </picture>
+                <picture class="d-block col-md-3 col-6 p-1">
+                    <img class="img-fluid four-banner" sizes="(max-width: 300px) 100vw, 300px"
+                        srcset="img/banners/food_banner@2x.png 600w, img/banners/food_banner.png 300w"
+                        src="img/banners/food_banner.png" alt="Skogås Hund & Katt banner about food offers">
+                </picture>
+                <picture class="d-block col-md-3 col-6 p-1">
+                    <img class="img-fluid four-banner" sizes="(max-width: 300px) 100vw, 300px"
+                        srcset="img/banners/toys_candy_banner@2x.png 600w, img/banners/toys_candy_banner.png 300w"
+                        src="img/banners/toys_candy_banner.png" alt="Skogås Hund & Katt banner about toys and candies offers">
+                </picture>
+
+
+
+            </div><!-- End div banners -->
+
+            <div class="wrapper-secondary bg-white">
+                <p>test</p>
+            </div><!-- End wrapper-secondary -->
+
+
+        </main><!-- MAIN CONTENT END -->
+
 
         <div id="fb-footer">
         </div><!-- END fb-footer -->
@@ -63,16 +104,15 @@ this is main home page
     <!-- my main custom JS -->
     <script src="js/main.js"></script>
     <!-- Solution for current active tab...not much i can do without configuring server side properly -->
-<!-- JavaScript only affects what is currently on the page. If I use jQuery "addClass", when page reloads the entire HTML will reset, and the .active class will be lost. -->
-<script>
-        $(function(){
-            $("#header").load("header.html", function() {
-            $('.home-icon').addClass('home-active');
+    <!-- JavaScript only affects what is currently on the page. If I use jQuery "addClass", when page reloads the entire HTML will reset, and the .active class will be lost. -->
+    <script>
+        $(function () {
+            $("#header").load("header.html", function () {
+                $('.home-icon').addClass('home-active');
             });
         });
-             
-        </script>
-       
+    </script>
+
 </body>
 
 </html>
