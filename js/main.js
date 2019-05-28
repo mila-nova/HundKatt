@@ -1,4 +1,15 @@
-console.log("im linked!"); // This is just for testing and can be removed. Checked if my JS file is properly linked
+// NAvigation active state
+var selector = '.nav li';
+
+$(selector).on('click', function(){
+    $(selector).removeClass('active');
+    $(this).addClass('active');
+});
+
+// tooltip toggle
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
 
 // simple function to validate personnummer with regular expression
 function pnummerValidate() {
