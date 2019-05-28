@@ -6,6 +6,11 @@ h3 {
     font-family: 'Bubblegum Sans', cursive;
 }
 
+h1 {
+    color: #FF9900;
+    color: var(--orange);
+}
+
     .fb-ad-text {
         font-size: 1.2rem;
     }
@@ -161,6 +166,15 @@ body {
         border: 2px dashed var(--orange);
         margin: .75rem;
         border-radius: 0 0 10px 10px;
+        padding-top: 10px;
+    }
+
+    .wrapper-secondary {
+        border: 2px dashed #AACF15;
+        /*IE fallback*/
+        border: 2px dashed var(--green);
+        margin: .75rem;
+        border-radius: 10px;
         padding-top: 10px;
     }
 
