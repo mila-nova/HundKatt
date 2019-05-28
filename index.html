@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <!-- Primary Meta Tags -->
@@ -51,14 +52,11 @@
 
 <body class="text-secondary">
     <!-- Service div -->
-<div id="service">
-</div><!-- End of serivce div -->
-
+    <div id="service">
+    </div><!-- End of serivce div -->
     <div class="wrapper container p-0">
         <div id="header">
         </div><!-- End header-id div -->
-        
-
         <main>
             <!-- MAIN CONTENT -->
             <div class="wrapper-main mt-0 border-top-0 bg-white">
@@ -70,8 +68,6 @@
                     </ol>
                 </nav>
                 <!-- end Breadcrumbs -->
-
-
                 <div class="container">
                     <h1>Välkommen till Skogås Hund & Katt!
                     </h1>
@@ -189,6 +185,9 @@
     <script>
         $(function () {
             $("#header").load("header.html", function () {
+                $('.home-icon').addClass('home-active');
+            });
+            $("#footer").load("footer.html", function () {
                 $('.home-icon').addClass('home-active');
             });
         });
