@@ -4,4 +4,5 @@ $(function () {
     $("#footer").load("footer.html");
     $("#fb-footer").load("fb-footer.html");
     $("#banners").load("banners.html");
+    $("#service").load("service.html");
 });
