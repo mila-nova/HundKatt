@@ -39,7 +39,7 @@
 
         <div class="wrapper-main mt-0 border-top-0 bg-white">
             <main><!-- MAIN CONTENT -->
-
+this is main home page
             </main><!-- MAIN CONTENT END -->
         </div><!-- End wrapper-main -->
 
@@ -62,6 +62,17 @@
     </script>
     <!-- my main custom JS -->
     <script type="text/javascript" src="js/main.js"></script>
+    <!-- Solution for current active tab...not much i can do without configuring server side properly -->
+<!-- JavaScript only affects what is currently on the page. If I use jQuery "addClass", when page reloads the entire HTML will reset, and the .active class will be lost. -->
+<script>
+        $(function(){
+            $("#header").load("header.html", function() {
+            $('.home-icon').addClass('home-active');
+            });
+        });
+             
+        </script>
+       
 </body>
 
 </html>

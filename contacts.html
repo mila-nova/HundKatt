@@ -117,6 +117,16 @@
     </script>
     <!-- my main custom JS -->
     <script type="text/javascript" src="js/main.js"></script>
+<!-- Solution for current active tab...not much i can do without configuring server side properly -->
+<!-- JavaScript only affects what is currently on the page. If I use jQuery "addClass", when page reloads the entire HTML will reset, and the .active class will be lost. -->
+    <script>
+$(function(){
+    $("#header").load("header.html", function() {
+    $('#contacts').addClass('active');
+    });
+});
+          
+</script>
 </body>
 
 </html>
