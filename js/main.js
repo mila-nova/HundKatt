@@ -1,11 +1,3 @@
-// NAvigation active state
-var selector = '.nav li';
-
-$(selector).on('click', function(){
-    $(selector).removeClass('active');
-    $(this).addClass('active');
-});
-
 // tooltip toggle
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
