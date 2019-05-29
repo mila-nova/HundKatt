@@ -5,4 +5,5 @@ $(function () {
     $("#fb-footer").load("fb-footer.html");
     $("#banners").load("banners.html");
     $("#service").load("service.html");
+    $("#colorful-bg-banners").load("colorful-bg-banners.html");
 });
