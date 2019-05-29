@@ -6,4 +6,5 @@ $(function () {
     $("#banners").load("banners.html");
     $("#service").load("service.html");
     $("#colorful-bg-banners").load("colorful-bg-banners.html");
+    $("#colorful-bg-banners-small").load("colorful-bg-banners-small.html");
 });
