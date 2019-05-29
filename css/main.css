@@ -112,6 +112,7 @@ body {
     background-size: 750px 560px;
 }
 
+
 /*Site banner*/
 
 .hours {
@@ -214,9 +215,11 @@ nav.nav-footer a:active {
 .tooltip-arrow {
     border-bottom-color: #AACF15;
 }
+
 /* for top position only */
-.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
-    border-top-color:#AACF15;
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before,
+.tooltip.bs-tooltip-top .arrow::before {
+    border-top-color: #AACF15;
 }
 
 
@@ -248,4 +251,25 @@ nav.nav-footer a:active {
 a#back-to-top:hover {
     color: #FF9900 !important;
     color: var(--orange) !important;
+}
+
+
+/* colorful BG banners */
+
+.bg-green {
+    background-color: #AACF15;
+    background-color: var(--green);
+}
+
+.bg-orange {
+    background-color: #FF9900;
+    /*IE fallback*/
+    background-color: var(--orange);
+}
+
+/* border-radius */
+@media (min-width: 768px) {
+    .rounded-10 {
+        border-radius: 10px;
+    }
 }
