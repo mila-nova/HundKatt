@@ -297,3 +297,9 @@ a#back-to-top:hover {
 .breadcrumb {
     border-radius: 0;
 }
+
+/* Gallery attribution */
+
+p.attribution a {
+    color: white;
+}
