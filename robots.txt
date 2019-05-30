@@ -2,4 +2,6 @@ User-agent: *
 Disallow: /css/
 Disallow: /img/
 Disallow: /js/
+Dissallow: thanks.html
+Disallow: 404-page-not-found.html
 Sitemap: http://localhost/HundKatt/sitemap.xml
