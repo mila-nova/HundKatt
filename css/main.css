@@ -303,3 +303,17 @@ a#back-to-top:hover {
 p.attribution a {
     color: white;
 }
+
+/* Buttons hover  */
+
+.btn-info:hover {
+    background-color: #FF9900;
+    border-color: #FF9900;
+    background-color: var(--orange);
+    border-color: var(--orange);
+}
+
+a.bg-info:focus, a.bg-info:hover, button.bg-info:focus, button.bg-info:hover {
+    background-color: #FF9900 !important;
+    background-color: var(--orange) !important;
+}
