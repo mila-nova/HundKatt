@@ -329,14 +329,26 @@ button.bg-info:hover {
 
 /* main banner */
 .big-fb-icon {
-    font-size: 6.5em;
-    line-height: .9em;
+    font-size: 5.8em;
+    line-height: .5em;
 }
 
 .main-banner-middle {
-    background: url("../img/main-banner-bg.png");
+    
     background: url("../img/main-banner-bg.svg");
+    background-size: 800px 597px;
     background-repeat: repeat;
-    background-size: 500px auto;
 }
 
+.big-fb-icon a:hover {
+   color: var(--info) !important;
+}
+
+/* Embeded facebook */
+
+@media (min-width: 768px) {
+
+    .fb-embed {
+        min-width: 340px;
+    }
+}
