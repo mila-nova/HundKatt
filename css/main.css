@@ -304,6 +304,11 @@ p.attribution a {
     color: white;
 }
 
+p.attribution {
+    font-size: .7em;
+}
+
+
 /* Buttons hover  */
 
 .btn-info:hover {
