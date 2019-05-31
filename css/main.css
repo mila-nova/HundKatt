@@ -189,7 +189,8 @@ body {
 @media (min-width: 768px) {
 
     .footer-wrapper,
-    .fb-ad {
+    .fb-ad,
+    .main-banner {
         border-radius: 10px;
     }
 
@@ -318,7 +319,24 @@ p.attribution {
     border-color: var(--orange);
 }
 
-a.bg-info:focus, a.bg-info:hover, button.bg-info:focus, button.bg-info:hover {
+a.bg-info:focus,
+a.bg-info:hover,
+button.bg-info:focus,
+button.bg-info:hover {
     background-color: #FF9900 !important;
     background-color: var(--orange) !important;
 }
+
+/* main banner */
+.big-fb-icon {
+    font-size: 6.5em;
+    line-height: .9em;
+}
+
+.main-banner-middle {
+    background: url("../img/main-banner-bg.png");
+    background: url("../img/main-banner-bg.svg");
+    background-repeat: repeat;
+    background-size: 500px auto;
+}
+
