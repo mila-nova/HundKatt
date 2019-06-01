@@ -13,9 +13,7 @@
     <meta property="twitter:title" content="Skogås Hund & Katt: djuraffär i Skogås Centrum">
     <meta property="twitter:description" content="Vi är en djuraffär som ligger i Skogås Centrum. Vi erbjuder ett brett sortiment av djurmat och tillbehör till hund, katt, smådjur och fåglar. ">
 
-<!-- HEADER START     -->
 <?php $page = 'home'; include("includes/header.php");?>
-<!-- HEADER END -->
 
         <main>
             <!-- MAIN CONTENT -->
@@ -124,13 +122,8 @@
                     </div><!-- End icon set -->
                 </div><!-- end of icons-wrapper -->
             </div><!-- End wrapper-secondary -->
-
+            </main><!-- MAIN CONTENT END -->
+            
 <?php include("includes/banners.php");?> 
 
-        </main><!-- MAIN CONTENT END -->
-
-        <?php include("includes/footer.php");?> 
-
-</body>
-
-</html>
+<?php include("includes/footer.php");?> 
