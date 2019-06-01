@@ -37,24 +37,24 @@
                     <a href="index.php" class="<?php if($page=='home') {echo 'home-active';}?> home-icon text-info d-block h2 p-2 m-0"><i class="fas fa-home"></i></a>
                     <nav class="nav-footer">
                         <ul class="container list-unstyled">
-                            <li><a href="about.html" class="text-white">Om oss</a></li>
+                            <li><a href="about.php" class="text-white">Om oss</a></li>
                             <li class="text-white">Sortiment</li>
                             <li>
                                 <ul class="list-unstyled ml-4 fa-ul">
                                     <li><span class="fa-li text-white"><i class="fas fa-paw"></i></span><a
-                                            class="text-white" href="assortment-dogs.html">Hund</a></li>
+                                            class="text-white" href="assortment-dogs.php">Hund</a></li>
                                     <li><span class="fa-li text-white"><i class="fas fa-paw"></i></span><a
-                                            class="text-white" href="assortment-cats.html">Katt</a></li>
+                                            class="text-white" href="assortment-cats.php">Katt</a></li>
                                     <li><span class="fa-li text-white"><i class="fas fa-paw"></i></span><a
-                                            class="text-white" href="assortment-small-animals-birds.html">Smådjur &
+                                            class="text-white" href="assortment-small-animals-birds.php">Smådjur &
                                             fågel</a></li>
                                 </ul>
                             </li>
-                            <li><a href="current-offers.html" class="text-white">Erbjudanden</a></li>
-                            <li><a href="customer-club.html" class="text-white">Kundklubb</a></li>
-                            <li><a href="gallery.html" class="text-white">Galleri</a></li>
-                            <li><a href="newsletter.html" class="text-white">Nyhetsbrev</a></li>
-                            <li><a href="contacts.html" class="text-white">Kontakter</a></li>
+                            <li><a href="current-offers.php" class="text-white">Erbjudanden</a></li>
+                            <li><a href="customer-club.php" class="text-white">Kundklubb</a></li>
+                            <li><a href="gallery.php" class="text-white">Galleri</a></li>
+                            <li><a href="newsletter.php" class="text-white">Nyhetsbrev</a></li>
+                            <li><a href="contacts.php" class="text-white">Kontakter</a></li>
                         </ul>
                     </nav>
                 </div><!-- end of footer2 -->

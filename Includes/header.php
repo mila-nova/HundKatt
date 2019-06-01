@@ -1,8 +1,8 @@
     <!-- Repeating metas -->
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content=http://skogashundkatt.se/"> <meta property="og:image"
-        content="img/shk-meta-image.jpg">
+    <meta property="og:url" content=http://skogashundkatt.se/"> 
+    <meta property="og:image" content="img/shk-meta-image.jpg">
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="http://skogashundkatt.se/">
@@ -139,34 +139,34 @@
                                 <i class="fab fa-facebook"></i>
                             </a></li>
                         <div class="dropdown-divider m-0 p-0"></div>
-                        <li class="nav-item"><a href="about.html" class="<?php if($page=='about') {echo 'active';}?> nav-link left-side-menu text-white"
+                        <li class="nav-item"><a href="about.php" class="<?php if($page=='about') {echo 'active';}?> nav-link left-side-menu text-white"
                                 id="about">Om oss</a>
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">
                                 <!-- adjusted for aria devices according to bootstrap documentation for accessibility devices -->
                                 <!-- Do not include link in Sortiment, dropdown won't work! -->
-                                <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown"
+                                <a class="<?php if($page=='assortment') {echo 'active';}?> nav-link dropdown-toggle text-white" data-toggle="dropdown"
                                     id="sotrimentDropdown" aria-haspopup="true" aria-expanded="false"
                                     href="#">Sortiment</a>
                                 <div class="dropdown-menu bg-secondary m-0 text-center text-md-left" role="menu"
                                     aria-labelledby="sotrimentDropdown">
-                                    <a class="dropdown-item text-white" href="assortment-dogs.html">Hund</a>
-                                    <a class="dropdown-item text-white" href="assortment-cats.html">Katt</a>
+                                    <a class="dropdown-item text-white" href="assortment-dogs.php">Hund</a>
+                                    <a class="dropdown-item text-white" href="assortment-cats.php">Katt</a>
                                     <a class="dropdown-item text-white"
-                                        href="assortment-small-animals-birds.html">Smådjur & fågel</a>
+                                        href="assortment-small-animals-birds.php">Smådjur & fågel</a>
                                 </div><!-- End dropdown-menu -->
                             </div><!-- End dropdown -->
                         </li>
-                        <li class="nav-item"><a href="current-offers.html" class="nav-link text-white"
+                        <li class="nav-item"><a href="current-offers.php" class="<?php if($page=='offers') {echo 'active';}?> nav-link text-white"
                                 id="offers">Erbjudanden</a></li>
-                        <li class="nav-item"><a href="customer-club.html" class="nav-link text-white"
+                        <li class="nav-item"><a href="customer-club.php" class="<?php if($page=='customer') {echo 'active';}?> nav-link text-white"
                                 id="customer-club">Kundklubb</a></li>
-                        <li class="nav-item"><a href="gallery.html" class="nav-link text-white" id="gallery">Galleri</a>
+                        <li class="nav-item"><a href="gallery.php" class="<?php if($page=='gallery') {echo 'active';}?> nav-link text-white" id="gallery">Galleri</a>
                         </li>
-                        <li class="nav-item"><a href="newsletter.html" class="nav-link text-white"
+                        <li class="nav-item"><a href="newsletter.php" class="<?php if($page=='newsletter') {echo 'active';}?> nav-link text-white"
                                 id="newsletter">Nyhetsbrev</a></li>
-                        <li class="nav-item"><a href="contacts.html" class="nav-link text-white right-side-menu"
+                        <li class="nav-item"><a href="contacts.php" class="<?php if($page=='contacts') {echo 'active';}?> nav-link text-white right-side-menu"
                                 id="contacts">Kontakter</a></li>
                     </ul>
                 </div><!-- End collapse div -->
