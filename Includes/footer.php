@@ -1,3 +1,10 @@
+            <!-- FB footer -->
+            <div class="fb-ad text-white text-center bg-info p-3 my-md-3 align-middle">
+                <a href="#" class="facebook-icon h2 text-white pr-3 d-block d-sm-inline"><i class="fab fa-facebook"></i></a>
+                <h2 class="fb-ad-text m-0 d-sm-inline">Besök vår Facebook Sidan för aktuella kampanjer & erbjudanden!
+                </h2>
+            </div><!-- End fb-ad -->
+            <!-- End FB footer -->
         <!-- MAIN FOOTER CONTENT -->
         <footer class="container p-0">
             <div class="footer-wrapper container row bg-secondary py-3 m-0">
@@ -27,7 +34,7 @@
                     </div><!-- End of phone and email -->
                 </div><!-- End of footer1 -->
                 <div class="footer2 col-lg-3 col-sm-5 d-none d-sm-block">
-                    <a href="index.html" class="home-icon text-info d-block h2 p-2 m-0"><i class="fas fa-home"></i></a>
+                    <a href="index.php" class="<?php if($page=='home') {echo 'home-active';}?> home-icon text-info d-block h2 p-2 m-0"><i class="fas fa-home"></i></a>
                     <nav class="nav-footer">
                         <ul class="container list-unstyled">
                             <li><a href="about.html" class="text-white">Om oss</a></li>
@@ -87,3 +94,17 @@
                 Reserved</small>
         </footer>
         <!-- END MAIN FOOTER CONTENT -->
+
+    </div><!-- End of wrapper-container -->
+    <!-- Scripts that go together with bootstrap and required for navigation components: collapse for toggling visibility of content, navbar for extending our Collapse plugin to implement responsive behavior -->
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- my main custom JS -->
+    <script src="js/main.js"></script>        

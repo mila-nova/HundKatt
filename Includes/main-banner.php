@@ -1,5 +1,5 @@
     <!-- Main container -->
-    <div class="main-banner m-0 p-0 overflow-hidden">
+    <div class="main-banner m-0 p-0 overflow-hidden mt-1 mt-lg-2">
         <!-- orange header div -->
         <div
             class="p-3 bg-orange text-white text-center text-sm-left d-sm-flex align-items-start justify-content-center">
