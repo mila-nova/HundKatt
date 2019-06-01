@@ -57,7 +57,8 @@ ul li a:active,
 }
 
 a.home-icon:hover,
-a.facebook-icon:hover {
+a.facebook-icon:hover, 
+address a:hover {
     color: #FF9900 !important;
     /*IE fallback*/
     color: var(--orange) !important;
