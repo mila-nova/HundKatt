@@ -335,6 +335,7 @@ button.bg-info:hover {
 
 .main-banner-middle {
     
+    background: url("../img/main-banner-bg.png");
     background: url("../img/main-banner-bg.svg");
     background-size: 800px 597px;
     background-repeat: repeat;
