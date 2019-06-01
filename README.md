@@ -3,6 +3,10 @@ Website for petshop HundKatt
 
 ![Website for petshop HundKatt](/img/shk-meta-image.jpg)
 
+## Description  
+
+To be described...  
+
 ## Attribution
 ### Graphics:
 1. Background pattern: [Designed by Isidoro151 / Freepik](http://www.freepik.com)
