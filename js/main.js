@@ -66,13 +66,7 @@ $(function () {
 
 // dynamic copyright year
 $(function () {
-    $("#footer").load("footer.html", function () {
-        $(function () {
-            thisyear = new Date().getFullYear();
-            $('.currentyear').text(thisyear);
-           });
-    });
-});
-
-
+    thisyear = new Date().getFullYear();
+    $('.currentyear').text(thisyear);
+   });
 
