@@ -148,13 +148,13 @@
                                 <!-- Do not include link in Sortiment, dropdown won't work! -->
                                 <a class="<?php if($page=='assortment') {echo 'active';}?> nav-link dropdown-toggle text-white" data-toggle="dropdown"
                                     id="sotrimentDropdown" aria-haspopup="true" aria-expanded="false"
-                                    href="#">Sortiment</a>
+                                    href="#">Sortiment</a>    
                                 <div class="dropdown-menu bg-secondary m-0 text-center text-md-left" role="menu"
                                     aria-labelledby="sotrimentDropdown">
                                     <a class="dropdown-item text-white" href="assortment-dogs.php">Hund</a>
                                     <a class="dropdown-item text-white" href="assortment-cats.php">Katt</a>
                                     <a class="dropdown-item text-white"
-                                        href="assortment-small-animals-birds.php">Smådjur & fågel</a>
+                                        href="assortment-small-animals-birds.php">Smådjur & Fågel</a>
                                 </div><!-- End dropdown-menu -->
                             </div><!-- End dropdown -->
                         </li>
