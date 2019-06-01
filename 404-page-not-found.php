@@ -41,7 +41,7 @@
                         <!-- Error image -->
                         <div class="p-1 pr-lg-5 col-12 col-md-7">
                             <picture>
-                                <source srcset="img/404.svg" type="img/svg+xml" />
+                                <source srcset="img/404.svg" type="image/svg+xml" />
                                 <img class="d-block w-100" srcset="img/404@2x.png 1200w, img/404.png 600w"
                                     src="img/404.png" alt="Illustration of cats trying to fix broken website"
                                     sizes="(max-width: 600px) 100vw, 600px" />
