@@ -14,7 +14,7 @@
                 <!-- Breadcrumbs -->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html" class="text-info home-icon h5"><i
+                        <li class="breadcrumb-item"><a href="index.php" class="text-info home-icon h5"><i
                                     class="fas fa-home"></i></a></li>
                         <li class="breadcrumb-item"><a class="text-secondary" href="contacts.php">Kontakter</a></li>
                         <li class="breadcrumb-item">Tack!</li>
@@ -32,6 +32,6 @@
             </div><!-- End wrapper-main -->
         </main><!-- MAIN CONTENT END -->
 
-<?php include("includes/banners-small.php");?> 
+<?php include("includes/colorful-bg-banners-small.php");?> 
 
 <?php include("includes/footer.php");?>    
