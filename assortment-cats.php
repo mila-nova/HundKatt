@@ -6,58 +6,15 @@
     <!-- Primary Meta Tags -->
     <title>Skogås Hund & Katt: Sortiment till Katt</title>
     <meta name="title" content="Skogås Hund & Katt: Sortiment till Katt">
-    <meta name="description"
-        content="Hos Skogås Hund & Katt hittar du över 30 olika märken av djurfoder, ett stort sortiment leksaker och godis, tillbehör och skötsel för din fyrbenta familjemedlem.">
+    <meta name="description" content="Hos Skogås Hund & Katt hittar du över 30 olika märken av djurfoder, ett stort sortiment leksaker och godis, tillbehör och skötsel för din fyrbenta familjemedlem.">
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content=http://skogashundkatt.se/"> <meta property="og:title"
-        content="Skogås Hund & Katt: Sortiment till Katt">
-    <meta property="og:description"
-        content="Hos Skogås Hund & Katt hittar du över 30 olika märken av djurfoder, ett stort sortiment leksaker och godis, tillbehör och skötsel för din fyrbenta familjemedlem.">
-    <meta property="og:image" content="img/shk-meta-image.jpg">
+    <meta property="og:title" content="Skogås Hund & Katt: Sortiment till Katt">
+    <meta property="og:description" content="Hos Skogås Hund & Katt hittar du över 30 olika märken av djurfoder, ett stort sortiment leksaker och godis, tillbehör och skötsel för din fyrbenta familjemedlem.">
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="http://skogashundkatt.se/">
     <meta property="twitter:title" content="Skogås Hund & Katt: Sortiment till Katt">
-    <meta property="twitter:description"
-        content="Hos Skogås Hund & Katt hittar du över 30 olika märken av djurfoder, ett stort sortiment leksaker och godis, tillbehör och skötsel för din fyrbenta familjemedlem.">
-    <meta property="twitter:image" content="img/shk-meta-image.jpg">
-    <!-- Browser instructions on how to control the page's dimensions and scaling, important for responsive layout -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Fonts links -->
-    <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
-    <!-- CSS Stylesheets -->
-    <!-- Bootstrap -->
-    <!-- Bootstrap also included normalize.css //reboot.css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <!-- Custom main website CSS -->
-    <link rel="stylesheet" href="css/main.css" />
-    <!-- Jquery, load in head because i am using it to compile my html, header, footer etc -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <!-- Compiles repeated HTML: adds html sections to designated divs -->
-    <script src="js/links.js"></script>
-    <!-- Favicon: website icon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-</head>
-
-<body class="text-secondary">
-    <!-- Service div -->
-    <div id="service">
-    </div><!-- End of serivce div -->
-
-    <div class="wrapper container p-0">
-        <div id="header">
-        </div><!-- End header-id div -->
+    <meta property="twitter:description" content="Hos Skogås Hund & Katt hittar du över 30 olika märken av djurfoder, ett stort sortiment leksaker och godis, tillbehör och skötsel för din fyrbenta familjemedlem.">
+ 
+<?php $page = 'assortment'; include("includes/header.php");?>
 
         <main>
             <!-- MAIN CONTENT -->
@@ -65,7 +22,7 @@
                 <!-- Breadcrumbs -->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html" class="text-info home-icon h5"><i
+                        <li class="breadcrumb-item"><a href="index.php" class="text-info home-icon h5"><i
                                     class="fas fa-home"></i></a></li>
                         <li class="breadcrumb-item">Sortiment</li>
                         <li class="breadcrumb-item">Katt</li>
@@ -299,30 +256,5 @@
             </div><!-- End Cat litter gallery -->
 
         </main><!-- MAIN CONTENT END -->
-        <div id="fb-footer">
-        </div><!-- END fb-footer -->
-        <div id="footer">
-        </div><!-- End footer-id div -->
 
-    </div><!-- End of wrapper-container -->
-    <!-- Scripts that go together with bootstrap and required for navigation components: collapse for toggling visibility of content, navbar for extending our Collapse plugin to implement responsive behavior -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-    <!-- my main custom JS -->
-    <script src="js/main.js"></script>
-    <!-- Solution for current active tab...not much i can do without configuring server side properly -->
-    <!-- JavaScript only affects what is currently on the page. If I use jQuery "addClass", when page reloads the entire HTML will reset, and the .active class will be lost. -->
-    <script>
-        $(function () {
-            $("#header").load("header.html", function () {
-                $('#sotrimentDropdown').addClass('active');
-            });
-        });
-    </script>
-</body>
-
-</html>
+<?php include("includes/footer.php");?>
