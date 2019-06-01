@@ -1,5 +1,6 @@
 # HundKatt
-Website for petshop HundKatt
+Website for petshop HundKatt  
+
 ![Website for petshop HundKatt](/img/shk-meta-image.jpg)
 
 ## Attribution
