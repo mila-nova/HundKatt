@@ -1,8 +1,7 @@
     <!-- Main container -->
     <div class="main-banner m-0 p-0 overflow-hidden mt-1 mt-lg-2">
         <!-- orange header div -->
-        <div
-            class="p-3 bg-orange text-white text-center text-sm-left d-sm-flex align-items-start justify-content-center">
+        <div class="p-3 bg-orange text-white text-center text-sm-left d-sm-flex align-items-start justify-content-center">
             <div class="m-0 py-0 pr-3 big-fb-icon"><a class="text-white" href="#"><i class="fab fa-facebook-square"></i></a></div>
             <div class="m-0 p-0">
                 <h1 class="h3 text-white m-0">Skogås Hund & Katt</h1>
@@ -12,8 +11,7 @@
                 <a class="d-block text-white"
                     href="mailto:&#105;&#110;&#102;&#111;&#064;&#115;&#107;&#111;&#103;&#097;&#115;&#104;&#117;&#110;&#100;&#107;&#097;&#116;&#116;&#046;&#115;&#101;">&#105;&#110;&#102;&#111;&#064;&#115;&#107;&#111;&#103;&#097;&#115;&#104;&#117;&#110;&#100;&#107;&#097;&#116;&#116;&#046;&#115;&#101;</a>
             </div><!-- End of phone and email -->
-        </div>
-        <!-- End orange header div -->
+        </div><!-- End orange header div -->
         <!-- blue middle -->
         <div class="main-banner-middle bg-info px-4 pt-5">
             <picture>
@@ -28,5 +26,4 @@
             <p class="m-0 h5 text-white p-4 text-center">Skogås Centrum, Skogåsplan 9, 14240 Skogås</p>
         </div>
         <!-- End banner footer -->
-    </div>
-    <!-- end of main container -->
+    </div><!-- end of main container -->

@@ -54,10 +54,9 @@
             <header>
                 <div class="top-align text-center">
                     <div class="d-inline-block text-left">
-                        <div
-                            class="top-bar border-info d-none d-md-flex justify-content-end align-items-center bg-white">
-                            <a href="index.php" class="<?php if($page=='home') {echo 'home-active';}?> home-icon text-info d-block h2 mx-3 p-2"><i
-                                    class="fas fa-home"></i></a>
+                        <div class="top-bar border-info d-none d-md-flex justify-content-end align-items-center bg-white">
+                            <a href="index.php" class="<?php if($page=='home') {echo 'home-active';}?> home-icon text-info d-block h2 mx-3 p-2">
+                            <i class="fas fa-home"></i></a>
                             <section class="hours p-2 mx-2">
                                 <h6 class="m-0">Öppettider</h6>
                                 <p class="m-0">Mån-fre 11:00–18:00 Lör 11:00–15:00</p>
@@ -75,6 +74,7 @@
                         </div><!-- end Top bar -->
                     </div><!-- End top bar wrapper -->
                 </div><!-- end of align div -->
+                <!-- Hero banner -->
                 <div class="banner position-relative d-md-flex justify-content-end align-items-baseline">
                     <div class="shk-logo text-center">
                         <picture>
@@ -92,7 +92,7 @@
                                 src="img/banner_part1.png" alt="Glada hundar och katter med en fisk och en liten mus"
                                 width="305" sizes="(max-width: 896px) 100vw, 896px" />
                         </picture>
-                    </div><!-- End of banner pic1 -->
+                    </div><!-- End of hero banner pic1 -->
                     <div class="banner-pic1a d-none d-lg-block d-xl-none">
                         <picture>
                             <source srcset="img/banner_part1a.svg" type="image/svg+xml" />
@@ -101,7 +101,7 @@
                                 src="img/banner_part1a.png" alt="Glada djur: en hund, en fisk och en liten mus"
                                 width="180" sizes="(max-width: 508px) 100vw, 508px" />
                         </picture>
-                    </div><!-- End of banner pic1a -->
+                    </div><!-- End of hero banner pic1a -->
                     <div class="banner-pic2 d-none d-lg-block">
                         <picture>
                             <source srcset="img/banner_part2.svg" type="image/svg+xml" />
@@ -111,8 +111,8 @@
                                 alt="En glada hund med en leksak och en kat som är glad och kollar på en papegoja"
                                 width="400" sizes="(max-width: 1196px) 100vw, 1196px" />
                         </picture>
-                    </div><!-- End of banner pic2 -->
-                </div><!-- End banner div -->
+                    </div><!-- End of hero banner pic2 -->
+                </div><!-- End hero banner div -->
             </header>
             <!-- Navigation bar -->
             <nav class="navbar navbar-expand-md bg-secondary p-0">
@@ -140,8 +140,7 @@
                             </a></li>
                         <div class="dropdown-divider m-0 p-0"></div>
                         <li class="nav-item"><a href="about.php" class="<?php if($page=='about') {echo 'active';}?> nav-link left-side-menu text-white"
-                                id="about">Om oss</a>
-                        </li>
+                                id="about">Om oss</a></li>
                         <li class="nav-item">
                             <div class="dropdown">
                                 <!-- adjusted for aria devices according to bootstrap documentation for accessibility devices -->

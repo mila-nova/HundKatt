@@ -3,7 +3,7 @@
 
 <head>
     <!-- Primary Meta Tags -->
-    <title>Skogås Hund & Katt: djuraffär i Skogås Centrum</title>
+    <title>Skogås Hund & Katt: Djuraffär i Skogås Centrum</title>
     <meta name="title" content="Skogås Hund & Katt: djuraffär i Skogås Centrum">
     <meta name="description" content="Vi är en djuraffär som ligger i Skogås Centrum. Vi erbjuder ett brett sortiment av djurmat och tillbehör till hund, katt, smådjur och fåglar. ">
     <!-- Open Graph / Facebook -->
@@ -39,7 +39,8 @@
 
             <div class="wrapper-secondary bg-white py-2 py-sm-0">
                 <!-- icons wrapper -->
-                <div class="row container">
+                <div class="container">
+                <div class="row">
                     <!-- Icon set -->
                     <div class="d-flex align-items-center col-12 col-lg-6">
                         <picture>
@@ -120,7 +121,8 @@
                             </p>
                         </section>
                     </div><!-- End icon set -->
-                </div><!-- end of icons-wrapper -->
+                </div><!-- end of row -->
+                </div><!-- End of container -->
             </div><!-- End wrapper-secondary -->
             </main><!-- MAIN CONTENT END -->
             
