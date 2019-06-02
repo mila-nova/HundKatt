@@ -96,7 +96,8 @@
         <!-- END MAIN FOOTER CONTENT -->
 
     </div><!-- End of wrapper-container -->
-    <!-- Scripts that go together with bootstrap and required for navigation components: collapse for toggling visibility of content, navbar for extending our Collapse plugin to implement responsive behavior -->
+    <!-- Scripts that go together with bootstrap and required for navigation components: 
+         collapse for toggling visibility of content, navbar for extending our Collapse plugin to implement responsive behavior -->
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

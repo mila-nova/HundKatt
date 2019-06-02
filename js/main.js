@@ -32,8 +32,7 @@ function pnummerValidate() {
 }
 
 // Back to top paw Jquery
-// do not run on small screens
-
+// not showing on small screens
 $(function () {
 
     if ($(window).width() > 576) { 
@@ -56,11 +55,8 @@ $(function () {
                });
                
                $('#back-to-top').tooltip('show');
-        
         });
-        
     }
-
 });
 
 

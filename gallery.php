@@ -51,7 +51,7 @@
                         img/gallery/gallery-img1_w768.jpg 768w,
                         img/gallery/gallery-img1_w960.jpg 960w,
                         img/gallery/gallery-img1@2x.jpg 1920w" src="img/gallery/gallery-img1_w960.jpg"
-                            alt="happy cat and dog together">
+                            alt="happy cat and dog cuddling together">
                     </picture>
                 </div><!-- end col -->
                 <!-- div col -->
