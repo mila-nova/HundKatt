@@ -1,14 +1,12 @@
     <!-- Repeating metas -->
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content=http://skogashundkatt.se/"> 
+    <meta property="og:url" content="http://skogashundkatt.se/"> 
     <meta property="og:image" content="img/shk-meta-image.jpg">
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="http://skogashundkatt.se/">
     <meta property="twitter:image" content="img/shk-meta-image.jpg">
-    <!-- Charset -->
-    <meta charset="UTF-8">
     <!-- Browser instructions on how to control the page's dimensions and scaling, important for responsive layout -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Fonts links -->
@@ -134,11 +132,11 @@
                 <!-- Collapse menu/toggle mobile -->
                 <div class="collapse navbar-collapse mt-1 mt-md-0" id="navbarMenu">
                     <ul class="nav container navbar-nav nav-pills nav-fill p-0">
-                        <div class="dropdown-divider m-0 p-0"></div>
+                        <li class="dropdown-divider m-0 p-0"></li>
                         <li class="nav-item d-md-none"><a href="#" class="h3 nav-link text-white left-side-menu mb-0">
                                 <i class="fab fa-facebook"></i>
                             </a></li>
-                        <div class="dropdown-divider m-0 p-0"></div>
+                        <li class="dropdown-divider m-0 p-0"></li>
                         <li class="nav-item"><a href="about.php" class="<?php if($page=='about') {echo 'active';}?> nav-link left-side-menu text-white"
                                 id="about">Om oss</a></li>
                         <li class="nav-item">

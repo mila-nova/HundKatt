@@ -4,4 +4,4 @@ Disallow: /img/
 Disallow: /js/
 Dissallow: thanks.php
 Disallow: 404-page-not-found.php
-Sitemap: http://localhost/HundKatt/sitemap.xml
+Sitemap: sitemap.xml

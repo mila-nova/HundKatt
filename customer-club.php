@@ -2,7 +2,8 @@
 <html lang="sv">
 
 <head>
-    <meta charset="UTF-8">
+    <!-- Charset -->
+    <meta charset="UTF-8">    
     <!-- Primary Meta Tags -->
     <title>Skogås Hund & Katt: Kundklubb</title>
     <meta name="title" content="Skogås Hund & Katt: Kundklubb">

@@ -2,6 +2,8 @@
 <html lang="sv">
 
 <head>
+    <!-- Charset -->
+    <meta charset="UTF-8">
     <!-- Primary Meta Tags -->
     <title>Skogås Hund & Katt: Djuraffär i Skogås Centrum</title>
     <meta name="title" content="Skogås Hund & Katt: djuraffär i Skogås Centrum">

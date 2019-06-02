@@ -2,6 +2,7 @@
 <html lang="sv">
 
 <head>
+    <!-- Charset -->
     <meta charset="UTF-8">
     <!-- Primary Meta Tags -->
     <title>Skogås Hund & Katt: Sortiment till Katt</title>
