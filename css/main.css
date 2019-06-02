@@ -212,16 +212,19 @@ nav.nav-footer a:active {
 
 .tooltip-inner {
     background-color: #AACF15;
+    background-color: var(--green);
 }
 
 .tooltip-arrow {
     border-bottom-color: #AACF15;
+    border-bottom: var(--green);
 }
 
 /* for top position only */
 .tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before,
 .tooltip.bs-tooltip-top .arrow::before {
     border-top-color: #AACF15;
+    border-top-color: var(--green);
 }
 
 
