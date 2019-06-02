@@ -101,7 +101,7 @@
                         <picture>
                             <img class="img-thumbnail d-block m-auto" sizes="(max-width: 275px) 100vw, 275px" srcset="
                                             img/logo/jrfarm_logo.jpg 275w,
-                                            img/logo/jrfarmr_logo@2x.jpg 550w" src="img/logo/jrfarm_logo.jpg"
+                                            img/logo/jrfarm_logo@2x.jpg 550w" src="img/logo/jrfarm_logo.jpg"
                                 alt="JR Farm Logotype">
                         </picture>
                     </div><!-- end col -->
