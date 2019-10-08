@@ -57,11 +57,12 @@ ul li a:active,
 }
 
 a.home-icon:hover,
-a.facebook-icon:hover, 
+a.facebook-icon:hover,
 address a:hover {
     color: #FF9900 !important;
     /*IE fallback*/
     color: var(--orange) !important;
+    text-decoration: none;
 }
 
 /*Have to use !important because of bootstraps hardcoded values*/
@@ -338,7 +339,7 @@ button.bg-info:hover {
 }
 
 .main-banner-middle {
-    
+
     background: url("../img/main-banner-bg.png");
     background: url("../img/main-banner-bg.svg");
     background-size: 800px 597px;
@@ -346,7 +347,7 @@ button.bg-info:hover {
 }
 
 .big-fb-icon a:hover {
-   color: var(--info) !important;
+    color: var(--info) !important;
 }
 
 /* Embeded facebook */
