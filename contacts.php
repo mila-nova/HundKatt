@@ -69,7 +69,7 @@
                                     <div class="input-group">
                                         <!-- I am using function for getting input value -->
                                         <input type="text" id="fpnummer" oninput="pnummerValidate()"
-                                            class="form-control form-field-required" name="personnummer"
+                                            class="form-control form-field-required" name="personnummer" 
                                             placeholder="ÅÅÅÅMMDDXXXX" required="required" aria-required="true"
                                             pattern="^(((20)((0[0-9])|(1[0-1])))|(([1][^0-8])?\d{2}))((0[1-9])|1[0-2])((0[1-9])|(2[0-9])|(3[01]))[-]?\d{4}$">
                                         <div class="input-group-append">
@@ -80,6 +80,7 @@
                                         </div><!-- end input group append -->
                                     </div><!-- End input group -->
                                     <small class="form-text text-muted">Vi delar aldrig dina personuppgifter</small>
+                                <small>NB: Personnummer presenteras endast för inlärningsändamål</small>
                                 </div><!-- End form-group -->
                                 <div class="form-group">
                                     <label class="form-control-label text-info h5" for="fpostnumber">Postnummer<span
