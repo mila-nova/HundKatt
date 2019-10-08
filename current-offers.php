@@ -5,6 +5,7 @@
     <!-- Charset -->
     <meta charset="UTF-8">    
     <!-- Primary Meta Tags -->
+    <meta name="robots" content="noindex">
     <title>Skogås Hund & Katt: Kampanjer & Erbjudanden</title>
     <meta name="title" content="Skogås Hund & Katt: Kampanjer & Erbjudanden">
     <meta name="description" content="Alla aktuella kampanjer & erbjudanden hittar du på vår Facebook sidan! Gäller så långt lagret räcker.">

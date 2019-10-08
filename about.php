@@ -5,6 +5,7 @@
     <!-- Charset -->
     <meta charset="UTF-8">
     <!-- Primary Meta Tags -->
+    <meta name="robots" content="noindex">
     <title>Skogås Hund & Katt: Om oss</title>
     <meta name="title" content="Skogås Hund & Katt: Om oss">
     <meta name="description" content="Vi erbjuder ett brett sortiment av djurmat och tillbehör till hund, katt, smådjur och fåglar. Vi samarbetar med alla ledande leverantörer och tillverkarkare av husdjurstillbehör.">

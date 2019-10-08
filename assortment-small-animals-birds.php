@@ -5,6 +5,7 @@
     <!-- Charset -->
     <meta charset="UTF-8">
     <!-- Primary Meta Tags -->
+    <meta name="robots" content="noindex">
     <title>Skogås Hund & Katt: Sortiment till Smådjur och Fåglar</title>
     <meta name="title" content="Skogås Hund & Katt: Sortiment till Smådjur och Fåglar">
     <meta name="description" content="Till smådjur & fåglar erbjuder vi följande sortiment av fodermärken. Hö, Halm & Spån från

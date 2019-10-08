@@ -5,6 +5,7 @@
     <!-- Charset -->
     <meta charset="UTF-8">    
     <!-- Primary Meta Tags -->
+    <meta name="robots" content="noindex">
     <title>Skogås Hund & Katt: Nyhetsbrev</title>
     <meta name="title" content="Skogås Hund & Katt: Nyhetsbrev">
     <meta name="description" content="Hos Skogås Hund & Katt hittar du över 30 olika märken av djurfoder, ett stort sortiment leksaker och godis, tillbehör och skötsel för dina husdjur. 

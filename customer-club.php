@@ -5,6 +5,7 @@
     <!-- Charset -->
     <meta charset="UTF-8">    
     <!-- Primary Meta Tags -->
+    <meta name="robots" content="noindex">
     <title>Skogås Hund & Katt: Kundklubb</title>
     <meta name="title" content="Skogås Hund & Katt: Kundklubb">
     <meta name="description" content="Hos Skogås Hund & Katt får du rabatt på alla våra djurtillbehör även kattmat, hundfoder och kattsand. Välkommen in och ansök om medlemskap i butiken!">

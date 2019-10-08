@@ -5,6 +5,7 @@
     <!-- Charset -->
     <meta charset="UTF-8">
     <!-- Primary Meta Tags -->
+    <meta name="robots" content="noindex">
     <title>Skogås Hund & Katt: Djuraffär i Skogås Centrum</title>
     <meta name="title" content="Skogås Hund & Katt: djuraffär i Skogås Centrum">
     <meta name="description" content="Vi är en djuraffär som ligger i Skogås Centrum. Vi erbjuder ett brett sortiment av djurmat och tillbehör till hund, katt, smådjur och fåglar. ">

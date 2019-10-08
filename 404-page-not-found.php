@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <!-- Primary Meta Tags -->
+    <meta name="robots" content="noindex">
     <title>Skogås Hund & Katt: Oppps!</title>
 
     <?php include("includes/header.php");?>
