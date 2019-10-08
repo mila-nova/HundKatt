@@ -9,7 +9,7 @@
                     srcset="img/icons/food-icon-bg@2x.png 500w, img/icons/food-icon-bg.png 250w"
                     src="img/icons/food-icon-bg.png" alt="food products illustration icon">
             </picture>
-            <div class="text-white text-center px-2">
+            <div class="text-white text-center p-2">
                 <h3>Foder & Mat</h3>
             </div>
         </div>
@@ -22,7 +22,7 @@
                     srcset="img/icons/toys-icon-bg@2x.png 500w, img/icons/toys-icon-bg.png 250w"
                     src="img/icons/toys-icon-bg.png" alt="toys and candy illustration icon">
             </picture>
-            <div class="text-white text-center px-2">
+            <div class="text-white text-center p-2">
                 <h3>Leksaker & Godis</h3>
             </div>
         </div>
@@ -35,7 +35,7 @@
                     srcset="img/icons/accessories-icon-bg@2x.png 500w, img/icons/accessories-icon-bg.png 250w"
                     src="img/icons/accessories-icon-bg.png" alt="accessories illustration icon">
             </picture>
-            <div class="text-white text-center px-2">
+            <div class="text-white text-center p-2">
                 <h3>Skötsel & Tillbehör</h3>
             </div>
         </div>
